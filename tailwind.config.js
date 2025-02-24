@@ -1,9 +1,11 @@
 module.exports = {
-  content: [
-    './src/**/*.{js,jsx,ts,tsx}',
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        clash: ["'Clash Display'", "sans-serif"], // Ensure correct format
+      },
+    },
   },
   plugins: [],
-}
+};

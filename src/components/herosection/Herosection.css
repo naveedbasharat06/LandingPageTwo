@@ -1,0 +1,44 @@
+.hero_section_content {
+}
+.heroSection_text_bg {
+}
+.heroSection_bgGrandient_img {
+  width: 317px;
+  position: relative;
+  left: 30%;
+}
+.heroSection_Mobile_imgsFlex {
+  display: flex;
+  position: absolute;
+  top: 5%;
+}
+.heroSection_mobile_img_01 {
+  position: relative;
+  right: 28%;
+  z-index: 2;
+
+  rotate: 15%;
+}
+.heroSection_mobile_img_02 {
+  position: relative;
+  right: 100%;
+  z-index: 1;
+  margin-top: 20px;
+}
+.heroSection_mobile_img_03 {
+  position: relative;
+  right: 172%;
+  margin-top: 20px;
+
+  z-index: 0;
+}
+.hero_section_circleBg {
+  position: relative;
+  right: 10%;
+}
+.heroSection_mobileBg_GrandiantImg {
+  position: relative;
+  bottom: 24%;
+  right: 23%;
+  z-index: 0;
+}
