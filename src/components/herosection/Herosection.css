@@ -1,11 +1,18 @@
 .hero_section_content {
 }
 .heroSection_text_bg {
+  position: relative;
+  bottom: 41%;
+  left: 13%;
 }
 .heroSection_bgGrandient_img {
-  width: 317px;
+  width: 76%;
   position: relative;
-  left: 30%;
+  left: 7%;
+  bottom: 10%;
+}
+.hero_section_mobileOrder {
+  position: relative;
 }
 .heroSection_Mobile_imgsFlex {
   display: flex;
@@ -16,29 +23,30 @@
   position: relative;
   right: 28%;
   z-index: 2;
-
   rotate: 15%;
 }
 .heroSection_mobile_img_02 {
   position: relative;
-  right: 100%;
+  right: 109%;
   z-index: 1;
   margin-top: 20px;
 }
 .heroSection_mobile_img_03 {
   position: relative;
-  right: 172%;
+  right: 194%;
   margin-top: 20px;
 
   z-index: 0;
 }
 .hero_section_circleBg {
   position: relative;
-  right: 10%;
+  right: 3%;
+  top: 8%;
 }
 .heroSection_mobileBg_GrandiantImg {
   position: relative;
-  bottom: 24%;
+  bottom: 18%;
   right: 23%;
   z-index: 0;
+  width: 457px;
 }

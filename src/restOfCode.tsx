@@ -4,7 +4,7 @@ import HeroSection from "./components/herosection/HeroSection";
 
 const RestOfCode = () => {
   return (
-    <div>
+    <div className="mx-auto">
       <Navbar />
       <HeroSection />
     </div>

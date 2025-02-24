@@ -5,6 +5,10 @@ import heroSection_mobile_img_02 from "../../images/iPhone-13-Pro-Front002.png";
 import heroSection_mobile_img_03 from "../../images/iPhone-13-Pro-Front003.png";
 import hero_section_circleBg from "../../images/Group 35887.png";
 import heroSection_mobileBg_GrandiantImg from "../../images/Group04.png";
+import heroWatchIcon from "../../images/Group 3.png";
+import heroSection_tapImg from "../../images/Group02.png";
+import start03 from "../../images/Star 3.png";
+import start01 from "../../images/Star 1.png";
 import "./Herosection.css";
 const HeroSection = () => {
   const toTitleCase = (text: string) => {
@@ -15,24 +19,45 @@ const HeroSection = () => {
       .join(" ");
   };
   return (
-    <div className="flex bg-white h-auto">
+    <div className="flex bg-white w-full mx-auto">
       <div className="hero_section_content">
+        <img className="relative left-14 mt-4" src={start03} alt="" />
         <img
           className="heroSection_bgGrandient_img"
           src={heroSection_bgGrandient_img}
           alt="bg grandiant"
         />
-        <div className="heroSection_text_bg mt-6 ml-20 relative left-10 bottom-52 ">
-          <h2 className="text-6xl font-bold">
+        <div className="heroSection_text_bg">
+          <h2 className="text-6xl font-bold w-[78%]">
             {toTitleCase("make the best financial decisions")}
           </h2>
-          <p className="text-lg">
+          <p className="text-gray-500 w-[616px] mt-6">
             {toTitleCase(`Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
           faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.`)}
           </p>
         </div>
+        {/* Get starter and watch video */}
+        <div className="heroSection_GetStarted flex relative bottom-96 left-28 gap-7">
+          <button className="get_started items-center bg-black text-white px-7 py-4 hidden md:flex rounded-sm font-medium">
+            Get Started ➡
+          </button>
+          <span className="flex gap-2">
+            <img src={heroWatchIcon} alt="" />
+            <button className="watch_video whitespace-nowrap">
+              Watch Video
+            </button>
+          </span>
+        </div>
+        <div className="hroSection_TapImg relative bottom-96 left-24">
+          <img src={heroSection_tapImg} alt="hero section Tap banner" />
+        </div>
       </div>
       <div className="hero_section_mobileOrder">
+        <img
+          className="relative left-[80%] bottom-5"
+          src={start01}
+          alt="start 01"
+        />
         <img
           className="hero_section_circleBg"
           src={hero_section_circleBg}
