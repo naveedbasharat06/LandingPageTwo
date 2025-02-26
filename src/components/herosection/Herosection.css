@@ -5,6 +5,7 @@
   height: 900px;
 }
 .hero_section_content {
+  margin-left: 20px;
 }
 .heroSection_text_bg {
   position: relative;
@@ -13,7 +14,7 @@
 }
 .heroSection_text_bg h2 {
   font-size: 64px;
-  width: 80%;
+  width: 70%;
   line-height: 64px;
   font-weight: 700;
 }
@@ -27,26 +28,34 @@
   bottom: 22%;
 }
 
-.hroSection_TapImg {
-  position: relative;
-  bottom: 38%;
-  left: 10%;
-}
 .hero_section_mobileOrder_start01 {
   position: relative;
   left: 82%;
   bottom: 2%;
 }
+.heroSection_tamImg_rightSide_start {
+  position: relative;
+  left: 27%;
+  bottom: 12%;
+}
+.heroSection_tamImg_leftSide_start {
+  position: relative;
+  right: 13%;
+  bottom: 8%;
+  z-index: 10;
+}
 .hroSection_TapImg {
   width: 569px;
   position: relative;
   bottom: 21%;
+  left: 12%;
 }
 .heroSection_bgGrandient_img {
   width: auto;
   position: relative;
   left: 32%;
   bottom: 6%;
+  z-index: 0;
 }
 .hero_section_mobileOrder {
   position: relative;
@@ -54,34 +63,35 @@
 .heroSection_Mobile_imgsFlex {
   display: flex;
   position: absolute;
-  top: 5%;
+  top: 19%;
+  right: 40%;
 }
 .heroSection_mobile_img_01 {
   position: absolute;
   right: 49%;
-  z-index: 2;
-  bottom: 6%;
+  z-index: 3;
+  bottom: 27%;
 }
 .heroSection_mobile_img_02 {
   position: absolute;
-  right: 13%;
-  z-index: 1;
-  bottom: -8%;
+  right: 15%;
+  z-index: 2;
+  bottom: 12%;
 }
 .heroSection_mobile_img_03 {
   position: relative;
-  left: 12%;
+  left: 17%;
   bottom: 7%;
-  z-index: 0;
+  z-index: 1;
 }
 .hero_section_circleBg {
   position: relative;
-  right: 4%;
-  top: 4%;
+  right: 20%;
+  bottom: 5%;
 }
 .heroSection_mobileBg_GrandiantImg {
   position: absolute;
-  bottom: 26%;
+  bottom: 22%;
   right: 39%;
   z-index: 0;
   width: auto;
@@ -91,9 +101,10 @@
     display: flex;
     height: auto;
     max-width: 1366px;
-    height: 768px;
+    height: auto;
   }
   .hero_section_content {
+    margin-left: 0px;
   }
   .heroSection_text_bg {
     position: relative;
@@ -121,10 +132,21 @@
     bottom: 0%;
   }
   .hroSection_TapImg {
-    width: 569px;
+    width: 534px;
     position: relative;
-    bottom: 26%;
+    bottom: 30%;
     left: 12%;
+  }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 27%;
+    bottom: 21%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -1%;
+    bottom: 21%;
+    z-index: 10;
   }
   .heroSection_bgGrandient_img {
     width: auto;
@@ -134,39 +156,41 @@
   }
   .hero_section_mobileOrder {
     position: relative;
+    right: 1%;
   }
   .heroSection_Mobile_imgsFlex {
     display: flex;
     position: absolute;
-    top: 5%;
+    top: 10%;
+    right: 49%;
   }
   .heroSection_mobile_img_01 {
     position: absolute;
-    right: 18%;
-    z-index: 2;
-    bottom: 12%;
+    right: 20%;
+    z-index: 3;
+    bottom: 27%;
   }
   .heroSection_mobile_img_02 {
     position: absolute;
-    left: 18%;
-    z-index: 1;
-    bottom: -3%;
+    left: 13%;
+    z-index: 2;
+    bottom: 11%;
   }
   .heroSection_mobile_img_03 {
     position: relative;
     left: 45%;
     bottom: 7%;
-    z-index: 0;
+    z-index: 1;
   }
   .hero_section_circleBg {
     position: relative;
-    right: 0%;
-    top: 0%;
+    right: 11%;
+    top: -11%;
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
-    bottom: 30%;
-    right: 18%;
+    bottom: 41%;
+    right: 25%;
     z-index: 0;
   }
 }
@@ -218,6 +242,17 @@
     bottom: 33%;
     left: 12%;
   }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 31%;
+    bottom: 27%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -1%;
+    bottom: 29%;
+    z-index: 10;
+  }
   .heroSection_bgGrandient_img {
     width: auto;
     position: relative;
@@ -256,12 +291,12 @@
   }
   .hero_section_circleBg {
     position: relative;
-    right: -1%;
-    top: -8%;
+    right: 5%;
+    top: -17%;
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
-    bottom: 23%;
+    bottom: 15%;
     right: 17%;
     z-index: 0;
     width: auto;
@@ -273,7 +308,7 @@
     display: flex;
     height: auto;
     max-width: 1024px;
-    height: 650px;
+    height: 720px;
   }
   .hero_section_content {
     position: relative;
@@ -315,6 +350,17 @@
     bottom: 33%;
     left: 12%;
   }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 38%;
+    bottom: 28%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -7%;
+    bottom: 21%;
+    z-index: 10;
+  }
   .heroSection_bgGrandient_img {
     width: auto;
     position: relative;
@@ -353,12 +399,12 @@
   }
   .hero_section_circleBg {
     position: relative;
-    right: 0%;
-    top: 0%;
+    right: 2%;
+    top: -13%;
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
-    bottom: 35%;
+    bottom: 27%;
     right: 29%;
     z-index: 0;
     width: 250px;
@@ -382,12 +428,13 @@
   .heroSection_text_bg h2 {
     font-size: 44px;
     width: auto;
-    line-height: 64px;
+    line-height: 52px;
+    letter-spacing: 0;
     font-weight: 700;
   }
   .heroSection_text_bg p {
     font-size: 14px !important;
-    width: 495px;
+    width: 492px;
     margin-top: 10px;
   }
   .heroSection_GetStarted {
@@ -407,8 +454,19 @@
   .hroSection_TapImg {
     width: 383px;
     position: relative;
-    bottom: 33%;
-    left: 13%;
+    bottom: 40%;
+    left: 16%;
+  }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 38%;
+    bottom: 28%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -7%;
+    bottom: 15%;
+    z-index: 10;
   }
   .heroSection_bgGrandient_img {
     width: auto;
@@ -422,8 +480,8 @@
   .heroSection_Mobile_imgsFlex {
     display: flex;
     position: absolute;
-    top: 16%;
-    left: 9;
+    top: 24%;
+    right: 40%;
   }
   .heroSection_mobile_img_01 {
     position: absolute;
@@ -448,13 +506,13 @@
   }
   .hero_section_circleBg {
     position: relative;
-    right: -1%;
-    top: -5%;
+    right: -2%;
+    top: -6%;
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
-    bottom: 34%;
-    right: 27%;
+    bottom: 9%;
+    right: 24%;
     z-index: 0;
     width: 242px;
   }
@@ -475,14 +533,14 @@
     left: 13%;
   }
   .heroSection_text_bg h2 {
-    font-size: 44px;
-    width: auto;
-    line-height: 64px;
+    font-size: 37px;
+    width: 390px;
+    line-height: 45px;
     font-weight: 700;
   }
   .heroSection_text_bg p {
     font-size: 14px !important;
-    width: 472px;
+    width: 430px;
     margin-top: 10px;
   }
   .heroSection_GetStarted {
@@ -505,6 +563,17 @@
     bottom: 33%;
     left: 13%;
   }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 38%;
+    bottom: 28%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -15%;
+    bottom: 5%;
+    z-index: 10;
+  }
   .heroSection_bgGrandient_img {
     width: auto;
     position: relative;
@@ -517,39 +586,39 @@
   .heroSection_Mobile_imgsFlex {
     display: flex;
     position: absolute;
-    top: 16%;
-    left: 9;
+    top: 27%;
+    left: 8%;
   }
   .heroSection_mobile_img_01 {
     position: absolute;
     right: 18%;
     z-index: 3;
-    bottom: 33%;
-    width: 260px;
+    bottom: 24%;
+    width: 230px;
   }
   .heroSection_mobile_img_02 {
     position: absolute;
     left: 18%;
     z-index: 2;
-    bottom: 19%;
-    width: 260px;
+    bottom: 11%;
+    width: 230px;
   }
   .heroSection_mobile_img_03 {
     position: relative;
     left: 49%;
     bottom: 7%;
     z-index: 1;
-    width: 260px;
+    width: 230px;
   }
   .hero_section_circleBg {
     position: relative;
-    right: -1%;
-    top: -5%;
+    right: -6%;
+    top: -1%;
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
-    bottom: 35%;
-    right: 25%;
+    bottom: 14%;
+    right: 20%;
     z-index: 0;
     width: 265px;
   }
@@ -559,7 +628,7 @@
     display: grid;
     /* flex-direction: column; */
     /* align-items: center; */
-    height: 1150px;
+    height: 1200px;
     max-width: 768px;
   }
   .hero_section_content {
@@ -575,7 +644,7 @@
   .heroSection_text_bg h2 {
     font-size: 44px;
     width: auto;
-    line-height: 64px;
+    line-height: 55px;
     font-weight: 700;
   }
   .heroSection_text_bg p {
@@ -598,16 +667,27 @@
     bottom: 108%;
   }
   .hroSection_TapImg {
-    width: 383px;
+    width: 396px;
     position: relative;
     bottom: 33%;
-    left: 13%;
+    left: 22%;
+  }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 38%;
+    bottom: 28%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -27%;
+    bottom: 68%;
+    z-index: 10;
   }
   .heroSection_bgGrandient_img {
     width: auto;
     position: relative;
     left: 21%;
-    bottom: 14%;
+    bottom: 11%;
   }
   .hero_section_mobileOrder {
     position: relative;
@@ -615,26 +695,26 @@
   .heroSection_Mobile_imgsFlex {
     display: flex;
     position: absolute;
-    top: -16%;
+    top: -22%;
     right: 41%;
   }
   .heroSection_mobile_img_01 {
     position: absolute;
-    right: 18%;
+    right: 14%;
     z-index: 3;
-    bottom: 33%;
+    bottom: 25%;
     width: 260px;
   }
   .heroSection_mobile_img_02 {
     position: absolute;
-    left: 18%;
+    left: 44%;
     z-index: 2;
-    bottom: 19%;
+    bottom: 11%;
     width: 260px;
   }
   .heroSection_mobile_img_03 {
     position: relative;
-    left: 49%;
+    left: 66%;
     bottom: 7%;
     z-index: 1;
     width: 260px;
@@ -647,8 +727,8 @@
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
-    bottom: 50%;
-    right: 37%;
+    bottom: 58%;
+    right: 35%;
     z-index: 0;
     width: 265px;
   }
@@ -668,13 +748,13 @@
   .heroSection_text_bg {
     position: relative;
     bottom: 37%;
-    left: 10%;
-    width: 90%;
+    left: 8%;
+    width: 97%;
   }
   .heroSection_text_bg h2 {
-    font-size: 44px;
+    font-size: 42px;
     width: auto;
-    line-height: 64px;
+    line-height: 50px;
     font-weight: 700;
   }
   .heroSection_text_bg p {
@@ -686,27 +766,38 @@
     position: relative;
     display: flex;
     gap: 6%;
-    left: 10%;
+    left: 8%;
     width: 375px;
     bottom: 34%;
   }
 
   .hero_section_mobileOrder_start01 {
     position: relative;
-    left: 89%;
+    left: 80%;
     bottom: 108%;
   }
   .hroSection_TapImg {
-    width: 383px;
+    width: 392px;
     position: relative;
     bottom: 33%;
-    left: 13%;
+    left: 21%;
+  }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 38%;
+    bottom: 28%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -22%;
+    bottom: 60%;
+    z-index: 10;
   }
   .heroSection_bgGrandient_img {
     width: auto;
     position: relative;
     left: 20%;
-    bottom: 13%;
+    bottom: 11%;
   }
   .hero_section_mobileOrder {
     position: relative;
@@ -714,21 +805,21 @@
   .heroSection_Mobile_imgsFlex {
     display: flex;
     position: absolute;
-    top: -16%;
-    right: 41%;
+    top: -21%;
+    right: 20%;
   }
   .heroSection_mobile_img_01 {
     position: absolute;
-    right: 18%;
+    right: 30%;
     z-index: 3;
-    bottom: 33%;
+    bottom: 25%;
     width: 260px;
   }
   .heroSection_mobile_img_02 {
     position: absolute;
-    left: 18%;
+    left: 34%;
     z-index: 2;
-    bottom: 19%;
+    bottom: 11%;
     width: 260px;
   }
   .heroSection_mobile_img_03 {
@@ -740,14 +831,14 @@
   }
   .hero_section_circleBg {
     position: relative;
-    right: -8%;
-    top: -50%;
+    right: -10%;
+    top: -54%;
     width: 445px;
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
     bottom: 50%;
-    right: 32%;
+    right: 28%;
     z-index: 0;
     width: 265px;
   }
@@ -767,7 +858,7 @@
   .heroSection_text_bg {
     position: relative;
     bottom: 32%;
-    left: 10%;
+    left: 5%;
     width: 90%;
   }
   .heroSection_text_bg h2 {
@@ -785,7 +876,7 @@
     position: relative;
     display: flex;
     gap: 5%;
-    left: 10%;
+    left: 5%;
     width: 340px;
     bottom: 29%;
   }
@@ -793,13 +884,24 @@
   .hero_section_mobileOrder_start01 {
     position: relative;
     left: 81%;
-    bottom: 148%;
+    /* bottom: 148%; */
   }
   .hroSection_TapImg {
     width: 350px;
     position: relative;
     bottom: 27%;
-    left: 10%;
+    left: 6%;
+  }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 38%;
+    bottom: 24%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -22%;
+    bottom: 60%;
+    z-index: 10;
   }
   .heroSection_bgGrandient_img {
     width: auto;
@@ -814,21 +916,21 @@
   .heroSection_Mobile_imgsFlex {
     display: flex;
     position: absolute;
-    top: -11%;
+    top: -15%;
     right: 33%;
   }
   .heroSection_mobile_img_01 {
     position: absolute;
-    right: 18%;
+    right: 28%;
     z-index: 3;
-    bottom: 33%;
+    bottom: 25%;
     width: 200px;
   }
   .heroSection_mobile_img_02 {
     position: absolute;
-    left: 18%;
+    left: 27%;
     z-index: 2;
-    bottom: 19%;
+    bottom: 11%;
     width: 200px;
   }
   .heroSection_mobile_img_03 {
@@ -840,14 +942,14 @@
   }
   .hero_section_circleBg {
     position: relative;
-    right: -13%;
-    top: -53%;
-    width: 86%;
+    right: -6%;
+    top: -46%;
+    width: 83%;
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
-    bottom: 47%;
-    right: 24%;
+    bottom: 55%;
+    right: 33%;
     z-index: 0;
     width: 207px;
   }
@@ -866,18 +968,18 @@
   }
   .heroSection_text_bg {
     position: relative;
-    bottom: 32%;
-    left: 10%;
+    bottom: 34%;
+    left: 8%;
     width: 90%;
   }
   .heroSection_text_bg h2 {
     font-size: 35px;
     width: auto;
-    line-height: 50px;
+    line-height: 44px;
     font-weight: 700;
   }
   .heroSection_text_bg p {
-    font-size: 14px !important;
+    font-size: 13px !important;
     width: 95%;
     margin-top: 5px;
   }
@@ -885,9 +987,9 @@
     position: relative;
     display: flex;
     gap: 5%;
-    left: 10%;
+    left: 8%;
     width: 270px;
-    bottom: 29%;
+    bottom: 32%;
   }
   .heroSection_GetStarted .get_started {
     padding: 8px 12px !important;
@@ -897,13 +999,24 @@
   .hero_section_mobileOrder_start01 {
     position: relative;
     left: 81%;
-    bottom: 160%;
+    /* bottom: 160%; */
   }
   .hroSection_TapImg {
     width: 285px;
     position: relative;
-    bottom: 27%;
+    bottom: 34%;
     left: 10%;
+  }
+  .heroSection_tamImg_rightSide_start {
+    position: relative;
+    left: 22%;
+    bottom: 28%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -22%;
+    bottom: 60%;
+    z-index: 10;
   }
   .heroSection_bgGrandient_img {
     width: auto;
@@ -918,21 +1031,21 @@
   .heroSection_Mobile_imgsFlex {
     display: flex;
     position: absolute;
-    top: -20%;
-    right: 33%;
+    top: -25%;
+    right: 30%;
   }
   .heroSection_mobile_img_01 {
     position: absolute;
-    right: 18%;
+    right: 26%;
     z-index: 3;
-    bottom: 32%;
+    bottom: 25%;
     width: 190px;
   }
   .heroSection_mobile_img_02 {
     position: absolute;
-    left: 18%;
+    left: 24%;
     z-index: 2;
-    bottom: 19%;
+    bottom: 11%;
     width: 190px;
   }
   .heroSection_mobile_img_03 {
@@ -944,23 +1057,60 @@
   }
   .hero_section_circleBg {
     position: relative;
-    right: -16%;
-    top: -63%;
-    width: 82%;
+    right: -11%;
+    top: -58%;
+    width: 85%;
   }
   .heroSection_mobileBg_GrandiantImg {
     position: absolute;
-    bottom: 47%;
-    right: 24%;
+    bottom: 56%;
+    right: 28%;
     z-index: 0;
     width: 207px;
   }
 }
 @media (max-width: 320px) {
   .heroSection_text_bg h2 {
-    font-size: 35px;
+    font-size: 30px;
     width: auto;
-    line-height: 50px;
+    line-height: 40px;
     font-weight: 700;
+  }
+  .hero_section_mobileOrder_start01 {
+    position: relative;
+    left: 77%;
+    bottom: 160%;
+  }
+  .heroSection_Mobile_imgsFlex {
+    display: flex;
+    position: absolute;
+    top: -40%;
+    right: 30%;
+  }
+  .heroSection_mobile_img_01 {
+    position: absolute;
+    right: 14%;
+    z-index: 3;
+    bottom: 25%;
+    width: 190px;
+  }
+  .hero_section_circleBg {
+    position: relative;
+    right: -15%;
+    top: -74%;
+    width: 85%;
+  }
+  .heroSection_tamImg_leftSide_start {
+    position: relative;
+    right: -9%;
+    bottom: 70%;
+    z-index: 10;
+  }
+  .heroSection_mobileBg_GrandiantImg {
+    position: absolute;
+    bottom: 62%;
+    right: 16%;
+    z-index: 0;
+    width: 207px;
   }
 }

@@ -1,0 +1,102 @@
+.uifry_premiumBg_grandiant {
+  position: absolute;
+  z-index: 0;
+  right: 6%;
+}
+.uifry_premiumBg_TriCircle {
+  position: absolute;
+
+  z-index: 2;
+  top: -5%;
+}
+.uifry_premiumMobile {
+  position: relative;
+  z-index: 3;
+  width: 210px;
+  left: 24%;
+}
+.uifry_Premium_content {
+}
+.uifry_premium_rightHalf_BgGrandiant {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+@media (max-width: 1024px) {
+  .uifry_premiumBg_grandiant {
+    position: absolute;
+    z-index: 0;
+    right: 6%;
+  }
+  .uifry_premiumBg_TriCircle {
+    position: absolute;
+
+    z-index: 2;
+    top: -5%;
+  }
+  .uifry_premiumMobile {
+    position: relative;
+    z-index: 3;
+    width: 185px;
+    left: 24%;
+  }
+  .uifry_Premium_content {
+  }
+  .uifry_premium_rightHalf_BgGrandiant {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+  }
+}
+@media (max-width: 767px) {
+  .uifry_premiumBg_grandiant {
+    position: absolute;
+    z-index: 0;
+    right: 6%;
+  }
+  .uifry_premiumBg_TriCircle {
+    position: absolute;
+
+    z-index: 2;
+    top: -5%;
+  }
+  .uifry_premiumMobile {
+    position: relative;
+    z-index: 3;
+    width: 185px;
+    left: 24%;
+  }
+  .uifry_Premium_content {
+  }
+  .uifry_premium_rightHalf_BgGrandiant {
+    position: absolute;
+    right: 0%;
+    top: 38%;
+    width: 200px;
+  }
+}
+@media (max-width: 390px) {
+  .uifry_premiumBg_grandiant {
+    position: absolute;
+    z-index: 0;
+    right: 6%;
+  }
+  .uifry_premiumBg_TriCircle {
+    position: absolute;
+
+    z-index: 2;
+    top: -5%;
+  }
+  .uifry_premiumMobile {
+    position: relative;
+    z-index: 3;
+    width: 169px;
+    left: 24%;
+  }
+  .uifry_premium_rightHalf_BgGrandiant {
+    position: absolute;
+    right: 0%;
+    top: 38%;
+    width: 200px;
+  }
+}

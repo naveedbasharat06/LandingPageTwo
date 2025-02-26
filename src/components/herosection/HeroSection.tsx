@@ -38,10 +38,10 @@ const HeroSection = () => {
         </div>
         {/* Get starter and watch video */}
         <div className="heroSection_GetStarted">
-          <button className="get_started items-center bg-black text-white px-7 py-4  md:flex rounded-sm font-medium">
+          <button className="get_started items-center bg-black text-white px-7 py-4  md:flex rounded-sm font-medium transition-all duration-500 ease-in-out hover:-translate-y-1 hover:bg-slate-600 ">
             Get Started ➡
           </button>
-          <span className="flex gap-2">
+          <span className="flex gap-2 transition-all duration-500 ease-in-out hover:-translate-y-1 cursor-pointer">
             <img className="watch_video" src={heroWatchIcon} alt="" />
             <button className="watch_video whitespace-nowrap">
               Watch Video
@@ -50,10 +50,16 @@ const HeroSection = () => {
         </div>
         {/* <div className="hroSection_TapImg"> */}
         <img
+          className="heroSection_tamImg_rightSide_start"
+          src={start03}
+          alt="start"
+        />
+        <img
           className="hroSection_TapImg"
           src={heroSection_tapImg}
           alt="hero section Tap banner"
         />
+
         {/* </div> */}
       </div>
       <div className="hero_section_mobileOrder">
@@ -66,6 +72,11 @@ const HeroSection = () => {
           className="hero_section_circleBg"
           src={hero_section_circleBg}
           alt="hero section circle img"
+        />
+        <img
+          className="heroSection_tamImg_leftSide_start"
+          src={start01}
+          alt="start 01"
         />
         <div className="heroSection_Mobile_imgsFlex">
           <img

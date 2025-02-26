@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        clash: ["'Clash Display'", "sans-serif"], // Ensure correct format
+        clash: ["'Clash Display'", "sans-serif"],
       },
     },
   },
