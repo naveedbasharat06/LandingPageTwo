@@ -19,9 +19,13 @@ const HeroSection = () => {
       .join(" ");
   };
   return (
-    <div className="hero_section_main bg-white w-full mx-auto">
+    <div className="hero_section_main  w-full mx-auto">
       <div className="hero_section_content">
-        <img className="relative left-14 mt-4" src={start03} alt="" />
+        <img
+          className="relative left-14 mt-4 z-10 transition-transform duration-500 ease-in-out hover:rotate-180"
+          src={start03}
+          alt=""
+        />
         <img
           className="heroSection_bgGrandient_img"
           src={heroSection_bgGrandient_img}
@@ -31,26 +35,26 @@ const HeroSection = () => {
           <h2 className="">
             {toTitleCase("make the best financial decisions")}
           </h2>
-          <p className="text-gray-500 w-[616px] mt-6 z-10">
+          <p className="text-gray-500 dark:text-slate-300 w-[616px] mt-6 z-10 font-medium">
             {toTitleCase(`Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
           faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.`)}
           </p>
         </div>
         {/* Get starter and watch video */}
         <div className="heroSection_GetStarted">
-          <button className="get_started items-center bg-black text-white px-7 py-4  md:flex rounded-sm font-medium transition-all duration-500 ease-in-out hover:-translate-y-1 hover:bg-slate-600 ">
-            Get Started ➡
+          <button className="get_started items-center bg-black text-white px-7 py-4  md:flex rounded-sm font-medium transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110 hover:bg-slate-600">
+            Get Started &nbsp;⟶
           </button>
-          <span className="flex gap-2 transition-all duration-500 ease-in-out hover:-translate-y-1 cursor-pointer">
+          <span className="flex gap-2 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110 cursor-pointer">
             <img className="watch_video" src={heroWatchIcon} alt="" />
-            <button className="watch_video whitespace-nowrap">
+            <button className="watch_video whitespace-nowrap font-medium">
               Watch Video
             </button>
           </span>
         </div>
         {/* <div className="hroSection_TapImg"> */}
         <img
-          className="heroSection_tamImg_rightSide_start"
+          className="heroSection_tamImg_rightSide_start z-10 transition-transform duration-500 ease-in-out hover:rotate-180"
           src={start03}
           alt="start"
         />
@@ -64,7 +68,7 @@ const HeroSection = () => {
       </div>
       <div className="hero_section_mobileOrder">
         <img
-          className="hero_section_mobileOrder_start01"
+          className="hero_section_mobileOrder_start01 z-10 transition-transform duration-500 ease-in-out hover:rotate-180"
           src={start01}
           alt="start 01"
         />
@@ -74,23 +78,23 @@ const HeroSection = () => {
           alt="hero section circle img"
         />
         <img
-          className="heroSection_tamImg_leftSide_start"
+          className="heroSection_tamImg_leftSide_start z-10 transition-transform duration-500 ease-in-out hover:rotate-180"
           src={start01}
           alt="start 01"
         />
         <div className="heroSection_Mobile_imgsFlex">
           <img
-            className="heroSection_mobile_img_01"
+            className="heroSection_mobile_img_01 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110"
             src={heroSection_mobile_img_01}
             alt="mobile 01"
           />
           <img
-            className="heroSection_mobile_img_02"
+            className="heroSection_mobile_img_02 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110"
             src={heroSection_mobile_img_02}
             alt=" mobile 02"
           />
           <img
-            className="heroSection_mobile_img_03"
+            className="heroSection_mobile_img_03 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110"
             src={heroSection_mobile_img_03}
             alt="mobile 02"
           />

@@ -31,13 +31,12 @@ const Navbar = () => {
       transition: { duration: 0.6, ease: "easeInOut" },
     },
   };
-
   return (
     <nav className="">
       <div className="max-w-7xl mx-auto px-6 md:px-10 pt-6">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex-shrink-0 transition-all duration-500 ease-in-out hover:-translate-y-1 cursor-pointer">
+          <div className="flex-shrink-0 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110 cursor-pointer">
             <img src={uifry_logo} alt="uifry logo" className="h-10 w-auto" />
           </div>
 
@@ -49,10 +48,10 @@ const Navbar = () => {
                 href={link.href}
                 onClick={() => setActiveLink(link.name)}
                 className={` z-10 font-medium
-                px-3 py-2 text-xl  md:justify-start  transition-colors ${
+                px-2 py-2 text-xl  md:justify-start transition-colors ${
                   activeLink === link.name
-                    ? "text-red-400 font-semibold "
-                    : "text-black  hover:text-gray-500"
+                    ? "text-red-400 font-semibold"
+                    : "text-gray-900 dark:text-slate-300 hover:text-gray-500 dark:hover:text-gray-400"
                 }`}
               >
                 {link.name}
@@ -62,7 +61,7 @@ const Navbar = () => {
 
           {/* Download Button */}
           <a
-            className="hidden md:flex bg-black text-white px-8 py-4 rounded-sm font-medium transition-all duration-500 ease-in-out hover:-translate-y-1 hover:bg-slate-600"
+            className="hidden md:flex bg-black text-white px-8 py-4 rounded-sm font-medium transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110  hover:bg-slate-600"
             href={pdfFile}
             download="sample-report.pdf"
             aria-label="Download sample report"
