@@ -48,9 +48,9 @@ const Navbar = () => {
                 href={link.href}
                 onClick={() => setActiveLink(link.name)}
                 className={` z-10 font-medium
-                px-2 py-2 text-xl  md:justify-start transition-colors ${
+                px-2 py-2 md:px-0 lg:px-2 text-xl  md:justify-start transition-colors ${
                   activeLink === link.name
-                    ? "text-red-400 font-semibold"
+                    ? "text-red-400 font-bold"
                     : "text-gray-900 dark:text-slate-300 hover:text-gray-500 dark:hover:text-gray-400"
                 }`}
               >

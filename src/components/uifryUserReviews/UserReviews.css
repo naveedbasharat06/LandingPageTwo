@@ -1,0 +1,133 @@
+.UserReview_Uifry_grandiant {
+  position: absolute;
+  z-index: 0;
+  right: 19%;
+  top: 1%;
+}
+.UserReview_uifry_TriCircle {
+  position: absolute;
+
+  z-index: 2;
+  top: -15%;
+  left: 11%;
+}
+.UserRiviewsHoldOn_Img {
+  position: relative;
+  z-index: 3;
+  width: 439px;
+  left: 21%;
+}
+
+.OnHoldMobileImg {
+  position: absolute;
+  top: 46%;
+  z-index: 4;
+  right: 13%;
+}
+@media (max-width: 1366px) {
+  .UserReview_Uifry_grandiant {
+    position: absolute;
+    z-index: 0;
+    right: 12%;
+    top: -1%;
+  }
+  .UserReview_uifry_TriCircle {
+    position: absolute;
+
+    z-index: 2;
+    top: -16%;
+    left: 11%;
+  }
+  .UserRiviewsHoldOn_Img {
+    position: relative;
+    z-index: 3;
+    width: 77%;
+    left: 21%;
+  }
+
+  .OnHoldMobileImg {
+    position: absolute;
+    top: 46%;
+    z-index: 4;
+    right: 13%;
+  }
+}
+@media (max-width: 1024px) {
+  .UserReview_Uifry_grandiant {
+    position: absolute;
+    z-index: 0;
+    right: 10%;
+    top: 12%;
+  }
+  .UserReview_uifry_TriCircle {
+    position: absolute;
+    width: 78%;
+    z-index: 2;
+    top: -18%;
+    left: 14%;
+  }
+  .UserRiviewsHoldOn_Img {
+    position: relative;
+    z-index: 3;
+    width: 59%;
+    left: 23%;
+  }
+}
+@media (max-width: 960px) {
+  .UserReview_Uifry_grandiant {
+    position: absolute;
+    z-index: 0;
+    right: 10%;
+    top: 12%;
+  }
+  .UserReview_uifry_TriCircle {
+    position: absolute;
+    width: 75%;
+    z-index: 2;
+    top: -20%;
+  }
+  .UserRiviewsHoldOn_Img {
+    position: relative;
+    z-index: 3;
+    width: 57%;
+    left: 23%;
+  }
+}
+@media (max-width: 768px) {
+  .UserReview_Uifry_grandiant {
+    position: absolute;
+    z-index: 0;
+    right: 6%;
+  }
+  .UserReview_uifry_TriCircle {
+    position: absolute;
+
+    z-index: 2;
+    top: -5%;
+  }
+  .UserRiviewsHoldOn_Img {
+    position: relative;
+    z-index: 3;
+    width: 185px;
+    left: 24%;
+  }
+}
+@media (max-width: 390px) {
+  .UserReview_Uifry_grandiant {
+    position: absolute;
+    z-index: 0;
+    right: 6%;
+  }
+  .UserReview_uifry_TriCircle {
+    position: absolute;
+
+    z-index: 2;
+    top: -5%;
+  }
+  .UserRiviewsHoldOn_Img {
+    position: relative;
+    z-index: 3;
+    width: 169px;
+    left: 24%;
+  }
+}

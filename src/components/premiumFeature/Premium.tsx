@@ -71,10 +71,10 @@ const UifryPremium: React.FC = () => {
         />
       </div>
       <div className="uifry_Premium_content lg:w-1/2 mt-10 lg:mt-0 lg:ml-6 ml-[-16px]">
-        <h4 className="text-red-500 uppercase text-lg md:text-xs font-semibold tracking-widest ml-9 ">
+        <h4 className="text-red-500 uppercase text-base md:text-lg font-medium tracking-widest ml-9 ">
           Features
         </h4>
-        <h2 className="text-5xl md:text-3xl lg:text-4xl font-extrabold text-black dark:text-white ml-9 tracking-wider mt-1">
+        <h2 className="text-4xl lg:text-5xl font-extrabold text-black dark:text-white ml-9 tracking-wider mt-1">
           Uifry Premium
         </h2>
         <img

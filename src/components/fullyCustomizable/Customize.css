@@ -139,3 +139,12 @@
     width: 160px;
   }
 }
+@media (max-width: 375px) {
+  .customizeOnHold {
+    position: absolute;
+    top: 23%;
+    z-index: 4;
+    right: 20%;
+    width: 160px;
+  }
+}

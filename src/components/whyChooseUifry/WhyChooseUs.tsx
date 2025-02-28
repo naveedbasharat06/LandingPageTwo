@@ -15,15 +15,12 @@ const WhyChooseUifry: React.FC = () => {
       .join(" ");
   };
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-center py-2 px-2 md:px-6 lg:px-20">
+    <section className="relative flex flex-col md:flex-row items-center justify-center py-10 px-2 md:px-6 lg:px-20">
       <div className="whyChoose_uifry_content md:w-2/3 lg:w-1/2 mt-10 lg:mt-0 lg:ml-4">
-        <h4 className="text-red-500 uppercase text-lg md:text-xs font-semibold tracking-widest ml-9 ">
+        <h4 className="text-red-500 uppercase text-base md:text-lg font-medium tracking-widest ml-9 ">
           advatnages
         </h4>
-        <h2
-          className="text-3xl 
- lg:text-5xl font-extrabold text-black  dark:text-slate-100 ml-9 tracking-wider mt-1"
-        >
+        <h2 className="text-4xl lg:text-5xl font-extrabold text-black  dark:text-slate-100 ml-9 tracking-wider mt-1">
           Why Choose Uifry?
         </h2>
         <div className="mt-6 space-y-6">
@@ -31,7 +28,7 @@ const WhyChooseUifry: React.FC = () => {
             <img
               src={whyChooseBellIcon}
               alt="bel icon"
-              className="text-red-500 text-lg text-center w-8 lg:text-sm mt-1 relative left-9 transition-transform duration-500 ease-in-out hover:rotate-180 cursor-pointer"
+              className="text-red-500 text-lg text-center w-8 lg:text-sm mt-1 relative left-9 transition-transform duration-500 ease-in-out hover:rotate-90 cursor-pointer"
             />
             <div>
               <h3 className="text-2xl md:text-3xl font-semibold text- dark: ml-8 flex items-center gap-2 whitespace-nowrap">
