@@ -56,8 +56,9 @@
   .UserReview_Uifry_grandiant {
     position: absolute;
     z-index: 0;
-    right: 10%;
-    top: 12%;
+    right: 5%;
+    top: -11%;
+    width: 81%;
   }
   .UserReview_uifry_TriCircle {
     position: absolute;
@@ -97,18 +98,23 @@
   .UserReview_Uifry_grandiant {
     position: absolute;
     z-index: 0;
-    right: 6%;
+    width: 75%;
+    top: -18%;
+    right: 15%;
   }
   .UserReview_uifry_TriCircle {
     position: absolute;
 
     z-index: 2;
-    top: -5%;
+    top: -19%;
+    width: 73%;
+
+    left: 14%;
   }
   .UserRiviewsHoldOn_Img {
     position: relative;
     z-index: 3;
-    width: 185px;
+    width: 54%;
     left: 24%;
   }
 }
@@ -116,18 +122,20 @@
   .UserReview_Uifry_grandiant {
     position: absolute;
     z-index: 0;
-    right: 6%;
+    right: 22%;
+    top: -13%;
   }
   .UserReview_uifry_TriCircle {
     position: absolute;
-
+    width: 72%;
     z-index: 2;
-    top: -5%;
+    top: -15%;
+    left: 7%;
   }
   .UserRiviewsHoldOn_Img {
     position: relative;
     z-index: 3;
-    width: 169px;
-    left: 24%;
+    width: 53%;
+    left: 16%;
   }
 }

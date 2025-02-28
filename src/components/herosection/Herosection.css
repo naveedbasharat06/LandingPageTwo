@@ -644,7 +644,7 @@
   .heroSection_text_bg h2 {
     font-size: 44px;
     width: auto;
-    line-height: 55px;
+    line-height: 50px;
     font-weight: 700;
   }
   .heroSection_text_bg p {
@@ -862,9 +862,9 @@
     width: 90%;
   }
   .heroSection_text_bg h2 {
-    font-size: 40px;
+    font-size: 38px;
     width: auto;
-    line-height: 50px;
+    line-height: 46px;
     font-weight: 700;
   }
   .heroSection_text_bg p {

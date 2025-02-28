@@ -10,6 +10,7 @@ import heroSection_tapImg from "../../images/Group02.png";
 import start03 from "../../images/Star 3.png";
 import start01 from "../../images/Star 1.png";
 import "./Herosection.css";
+// import { Typewriter } from "react-simple-typewriter";
 const HeroSection = () => {
   const toTitleCase = (text: string) => {
     return text
@@ -34,6 +35,10 @@ const HeroSection = () => {
         <div className="heroSection_text_bg">
           <h2 className="">
             {toTitleCase("make the best financial decisions")}
+            {/* <Typewriter
+              words={["Make The Best Financial Decisions"]}
+              typeSpeed={100}
+            /> */}
           </h2>
           <p className="text-gray-500 dark:text-slate-300 w-[616px] mt-6 z-10 font-medium">
             {toTitleCase(`Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
