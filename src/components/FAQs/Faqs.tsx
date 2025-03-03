@@ -44,7 +44,7 @@ const Faqs = () => {
       Id: 6,
       title: "the best financial accounting app ever!",
       description:
-        "“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.",
+        "“ Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.",
     },
   ];
   return (
@@ -55,7 +55,7 @@ const Faqs = () => {
         src={start03}
         alt="star"
       />
-      <div className="max-w-5xl mx-auto  mb-2">
+      <div className="max-w-5xl mx-auto">
         <h4 className="text-red-500  uppercase text-base md:text-lg font-medium tracking-widest">
           FAQ
         </h4>
@@ -64,25 +64,33 @@ const Faqs = () => {
         </h2>
         {/* Decorative Image */}
         <img
-          className="relative left-[60%] bottom-14 z-10 md:left-[55%]  transition-transform duration-500 ease-in-out hover:rotate-180"
+          className="relative left-[60%] bottom-14 z-10 md:left-[57%]  transition-transform duration-500 ease-in-out hover:rotate-180"
           src={start01}
           alt="Decorative Star"
         />
       </div>
 
       {/* FAQ Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
         {FaqsData.map((faq, idx) => (
           <div
             key={faq.Id}
-            className={`p-6 rounded-lg shadow-sm hover:drop-shadow-lg cursor-pointer transition-all duration-300 ${
-              faq.Id % 2 === 1
+            className={`p-5 lg:p-7 rounded-lg hover:drop-shadow-lg cursor-pointer transition-all duration-300 ${
+              [1, 4, 5].includes(faq.Id)
                 ? "bg-red-500 text-white"
-                : "bg-slate-100 text-black"
+                : "bg-white text-black"
             }`}
           >
-            <h2 className="text-2xl font-semibold">{toTitleCase(faq.title)}</h2>
-            <p className="text-lg mt-2">{toTitleCase(faq.description)}</p>
+            <h2 className="lg:text-[28px] text-3xl font-semibold">
+              {toTitleCase(faq.title)}
+            </h2>
+            <p
+              className={`text-lg mt-2 ${
+                [2, 3, 6].includes(faq.Id) ? "text-black opacity-50" : " "
+              }`}
+            >
+              {toTitleCase(faq.description)}
+            </p>
           </div>
         ))}
       </div>

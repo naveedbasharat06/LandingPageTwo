@@ -8,6 +8,8 @@ import WhyChooseUifry from "./components/whyChooseUifry/WhyChooseUs";
 import Customizable from "./components/fullyCustomizable/Customize";
 import UserReviews from "./components/uifryUserReviews/UserReviews";
 import Faqs from "./components/FAQs/Faqs";
+import GetStarted from "./components/getStarted/GetStarted";
+import Footer from "./components/footer/Footer";
 
 const RestOfCode = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -41,6 +43,8 @@ const RestOfCode = () => {
       <Customizable />
       <UserReviews />
       <Faqs />
+      <GetStarted />
+      <Footer />
     </div>
   );
 };
