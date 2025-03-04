@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import heroSection_bgGrandient_img from "../../images/finance-bg01.png";
 import heroSection_mobile_img_01 from "../../images/iPhone-13-Pro-Front-1.png";
 import heroSection_mobile_img_02 from "../../images/iPhone-13-Pro-Front002.png";
@@ -9,17 +8,10 @@ import heroWatchIcon from "../../images/Group 3.png";
 import heroSection_tapImg from "../../images/Group02.png";
 import start03 from "../../images/Star 3.png";
 import start01 from "../../images/Star 1.png";
-import GetStarted_star7 from "../../images/Star 7.png";
-import GetStarted_star6 from "../../images/Star 6.png";
+
 import "./Herosection.css";
 // import { Typewriter } from "react-simple-typewriter";
 const HeroSection = () => {
-  const [DecoratorStart1, setDecoratorStar1] = useState(start01);
-  const [DecoratorStart3, setDecoratorStar3] = useState(start03);
-  useEffect(() => {
-    setDecoratorStar1(GetStarted_star7);
-    setDecoratorStar3(GetStarted_star6);
-  });
   const toTitleCase = (text: string) => {
     return text
       .toLowerCase()
