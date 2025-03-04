@@ -32,7 +32,7 @@ const Navbar = () => {
     },
   };
   return (
-    <nav className="lg:pt-10">
+    <nav className="pt-6 lg:pt-10">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -61,7 +61,7 @@ const Navbar = () => {
 
           {/* Download Button */}
           <a
-            className="hidden md:flex bg-black text-white px-8 py-4 rounded-sm font-medium transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110  hover:bg-slate-600"
+            className="hidden md:flex bg-black text-white px-8 py-4 rounded-sm font-medium transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110  hover:bg-slate-600 z-10"
             href={pdfFile}
             download="sample-report.pdf"
             aria-label="Download sample report"
