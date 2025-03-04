@@ -32,7 +32,7 @@ const RestOfCode = () => {
 
       <button
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        className="z-10 p-2 w-10 rounded-full bg-gray-300 dark:bg-gray-700 text-black dark:text-white  shadow-lg absolute right-5 md:right-2 lg:right-5  top-20 md:top-5 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110"
+        className="z-10 p-2 w-10 rounded-full bg-gray-300 dark:bg-gray-700 text-black dark:text-white  shadow-lg absolute right-5 md:right-2 lg:right-5  top-20 md:top-11 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110"
         aria-label="Toggle Dark Mode"
       >
         {theme === "dark" ? "  ☀︎" : "☽"}

@@ -32,14 +32,13 @@
   gap: 16px;
 }
 .copy_right {
-  margin: 40px 0px;
+  margin: 22px 0px;
   gap: 8px;
 }
 .copy_right p {
-  font-size: 14px;
-
+  font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 500;
   clear: both;
   display: inline-block;
   overflow: visible;
@@ -62,17 +61,16 @@
 }
 .Stay_upto_Date input {
   border-radius: 8px;
-  width: 200px;
-  height: 50px;
+  width: 150px;
+  height: 70px;
 
   padding-left: 12px;
 }
 .Stay_upto_Date input[type="text"] {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 20px;
   z-index: 2;
-
   position: relative;
 }
 
@@ -83,27 +81,26 @@
   cursor: pointer;
 }
 .company h2 {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 32px;
   line-height: 28px;
 }
 .Support h2 {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 32px;
   line-height: 28px;
 }
 ul li {
   list-style-type: none;
-
-  margin-top: 10px;
+  margin-top: 20px;
 }
 ul li a {
   font-size: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   word-spacing: 0;
+  font-weight: 500;
   flex-wrap: nowrap;
-
   clear: both;
   display: inline-block;
   overflow: hidden;
@@ -111,6 +108,20 @@ ul li a {
 }
 .mobile_View_footer {
   display: none;
+}
+.footer_horizontal_line {
+  /* padding-bottom: 20px; */
+  width: 90%;
+  margin: auto;
+  border: none;
+  opacity: 50%;
+  height: 1.2px;
+  background: linear-gradient(
+    to right,
+    transparent 3%,
+    black 50%,
+    transparent 90%
+  );
 }
 @media (max-width: 1280px) {
   .footer {
@@ -124,7 +135,7 @@ ul li a {
   }
 
   .Stay_upto_Date input {
-    width: 240px;
+    width: auto;
   }
 }
 @media (max-width: 1024px) {
@@ -139,7 +150,7 @@ ul li a {
   }
 
   .Stay_upto_Date input {
-    width: 230px;
+    width: auto;
   }
 }
 @media (max-width: 960px) {
@@ -154,7 +165,7 @@ ul li a {
   }
 
   .Stay_upto_Date input {
-    width: 220px;
+    width: 150px;
   }
 }
 @media (max-width: 854px) {
@@ -169,7 +180,7 @@ ul li a {
   }
 
   .Stay_upto_Date input {
-    width: 220px;
+    width: 150px;
   }
 }
 @media (max-width: 768px) {
@@ -192,7 +203,6 @@ ul li a {
     gap: 23%;
     position: relative;
     right: 6%;
-    align-items: center;
   }
   .MobileView_support h2,
   .MobileView_company h2 {
@@ -204,7 +214,7 @@ ul li a {
   ul li {
     list-style-type: none;
     border-bottom: 1px solid gray;
-    margin-top: 10px;
+    margin-top: 13px;
   }
   ul li a {
     font-size: 14px;
@@ -238,10 +248,9 @@ ul li a {
   }
 
   .MobileView_copy_right p {
-    font-size: 14px;
-
+    font-size: 16px;
     line-height: 20px;
-    font-weight: 400;
+    font-weight: 500;
     clear: both;
     display: inline-block;
     overflow: visible;
@@ -256,15 +265,13 @@ ul li a {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-
     margin-top: 8px;
     margin-bottom: 3rem;
   }
   .MobileView_Stay_upto_Date input {
-    background-color: rgba(252, 248, 248, 0.2);
     border-radius: 8px;
     width: auto;
-    height: 40px;
+    height: 60px;
 
     padding-left: 8px;
   }
@@ -307,16 +314,18 @@ ul li a {
   .MobileView_Stay_upto_Date input {
     border-radius: 8px;
     width: auto;
-    height: 50px;
-
+    height: 60px;
     padding-left: 8px;
   }
   .mobileView_companySupport {
     display: flex;
     justify-content: center;
-
     gap: 8%;
     position: relative;
     right: 0%;
+  }
+  .footer_horizontal_line {
+    width: 90%;
+    margin: 40px 0px 10px 0px;
   }
 }

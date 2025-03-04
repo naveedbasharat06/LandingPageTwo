@@ -14,7 +14,8 @@ const Footer = () => {
   const toggleLinks = () => setIsLinksOpen(!isLinkOpen);
   const toggleLegal = () => setIsSupportOpen(!isLegalOpen);
   const toggleProduct = () => setIsProductOpen(!isProductOpen);
-
+  const year = new Date().getFullYear();
+  // const;
   return (
     <>
       <div className="footer bg-white dark:bg-slate-900 flex sm:flex-col">
@@ -23,14 +24,14 @@ const Footer = () => {
             <div className="Nexcent_logo">
               <img id="Nexcentlogo" src={uifry_logo} alt="Nexcent logo" />
             </div>
-            <div className="copy_right grid gap-6">
+            <div className="copy_right grid gap-5">
               <span className="flex gap-2">
                 <img src={emailFrame} alt="email" />
-                <p className="text-black "> help@frybix.com</p>
+                <p className=""> help@frybix.com</p>
               </span>
               <span className="flex gap-2">
                 <img src={PhNoFrame} alt="email" />
-                <p>+1 234 456 678 89</p>
+                <p className="font-bold text-base">+1 234 456 678 89</p>
               </span>
             </div>
           </div>
@@ -89,15 +90,16 @@ const Footer = () => {
             <h1 className="font-medium text-3xl">Newsletter</h1>
 
             <h2>Stay up to date</h2>
-
+            {/* <span className="flex  overflow-hidden"> */}
             <input
-              className="border-2 bg-slate-100"
+              className=" bg-slate-200 font-medium"
               type="text"
               placeholder="Your email"
             />
-            <button className="relative bottom-0 z-10 text-white right-10 bg-black px-5 py-3 rounded-md ">
+            <button className="relative bottom-0 z-10 text-white right-4 bg-black px-9 py-5 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110 hover:bg-slate-900 cursor-pointer">
               Subscribe
             </button>
+            {/* </span> */}
           </div>
         </div>
       </div>
@@ -202,7 +204,7 @@ const Footer = () => {
               <img id="Nexcentlogo" src={uifry_logo} alt="Nexcent logo" />
             </div>
             <div className="MobileView_copy_right grid gap-3 md:gap-6">
-              <p>help@frybix.com</p>
+              <p className="font-bold">help@frybix.com</p>
               <p>+1 234 456 678 89</p>
             </div>
           </div>
@@ -211,19 +213,19 @@ const Footer = () => {
 
             <h2>Stay up to date</h2>
             <input
-              className="border-2 bg-slate-100"
+              className="bg-slate-100"
               type="text"
               placeholder="Your email"
             />
-            <button className="relative bottom-0 z-10 text-white right-10 bg-black px-5 py-3 rounded-md ">
+            <button className="relative bottom-0 z-10 text-white right-10 bg-black px-5 py-4 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110 cursor-pointer rounded-md">
               Subscribe
             </button>
           </div>
         </div>
       </div>
-      <hr className="py-4 mx-auto w-[90%]" />
-      <p className="text-center font-medium pb-5">
-        Copyright 2022 uifry.com all rights reserved
+      <hr className="footer_horizontal_line" />
+      <p className="text-center font-medium  mt-5 md:mt-8 pb:3 md:pb-14">
+        Copyright {year} uifry.com all rights reserved
       </p>
     </>
   );

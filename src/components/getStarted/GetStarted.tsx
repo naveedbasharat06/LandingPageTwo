@@ -21,12 +21,12 @@ const GetStarted = () => {
   return (
     <div className="GetStarted_main ">
       <img
-        className="absolute bottom-[18%] md:bottom-[15%] right-[5%] lg:bottom-[18%] z-20 lg:right-[6%]   transition-transform duration-500 ease-in-out hover:rotate-180"
+        className="absolute bottom-[18%] md:bottom-[15%] right-[5%] lg:bottom-[20%] z-20 lg:right-[6%] transition-transform duration-500 ease-in-out hover:rotate-180"
         src={start01}
         alt="Decorative Star"
       />
       <img
-        className="absolute left-0 lg:left-10  bottom-[10%] lg:bottom-[14%]  z-20 transition-transform duration-500 ease-in-out hover:rotate-180"
+        className="absolute left-0 lg:left-12 bottom-[10%] lg:bottom-[16%] z-20 transition-transform duration-500 ease-in-out hover:rotate-180"
         src={start03}
         alt="star"
       />
@@ -35,9 +35,9 @@ const GetStarted = () => {
         alt="bg Grandiant"
         className="GetStarted_Uifry_grandiant"
       />
-      <div className="bg-black flex  z-10 GetStarted_blackBox rounded-lg">
+      <div className="bg-black flex z-10 GetStarted_blackBox rounded-lg">
         <img
-          className="GetStarted_bgTri_circle_left absolute bottom-0 w-[33%]"
+          className="GetStarted_bgTri_circle_left absolute bottom-0 w-[35%]"
           src={GetStarted_bgTri_circle_left}
           alt="get started tri circle bg"
         />
@@ -50,7 +50,7 @@ const GetStarted = () => {
           <h1 className="relative text-white font-bold">
             {toTitleCase(`ready to get started?`)}
           </h1>
-          <p className="text-white lg:text-lg text-base mt-2 md:mt-3 lg:mt-4 opacity-75">
+          <p className="text-white lg:text-lg text-base mt-2 md:mt-3 lg:mt-4 opacity-90">
             {toTitleCase(
               `Risus habitant leo egestas mauris diam eget morbi tempus vulputate.`
             )}

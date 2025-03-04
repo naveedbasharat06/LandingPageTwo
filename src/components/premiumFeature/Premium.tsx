@@ -95,7 +95,7 @@ const UifryPremium: React.FC = () => {
                   {item.heading}
                 </h3>
                 <p
-                  className="text-gray-500 dark:text-slate-300 text-base lg:text-lg mt-2 font-medium
+                  className="text-black opacity-50 dark:opacity-70 dark:text-slate-200 da text-base lg:text-lg mt-2 font-medium
 "
                 >
                   {toTitleCase(item.description)}

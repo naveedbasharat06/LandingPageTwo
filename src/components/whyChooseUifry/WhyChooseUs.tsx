@@ -35,7 +35,7 @@ const WhyChooseUifry: React.FC = () => {
                 Clever Notifications
               </h3>
               <p
-                className="text-gray-500 dark:text-slate-300 text-base md:mr-0  lg:mr-8 lg:text-lg mt-6 font-medium
+                className="text-black opacity-50 dark:opacity-70 dark:text-slate-100 text-base md:mr-0  lg:mr-8 lg:text-lg mt-6 font-medium
 "
               >
                 {toTitleCase(` Arcu at dictum sapien, mollis. Vulputate sit id accumsan,

@@ -36,14 +36,14 @@ const UserReviews = () => {
     <div className=" py-6 px-4 md:px-2 lg:px-20">
       <div className="w-[90%] md:w-[455px] md:text-center mx-5 md:mx-auto">
         <img
-          className="relative left-[40%] bottom-6 z-10 md:left-[100%] md:bottom-6 transition-transform duration-500 ease-in-out hover:rotate-180"
+          className="relative left-[40%] bottom-6 z-10 md:left-[130%] md:bottom-6 transition-transform duration-500 ease-in-out hover:rotate-180"
           src={start01}
           alt="start 01"
         />
         <p className="uppercase text-lg text-black dark:text-slate-300 font-medium tracking-wider">
           testimonial
         </p>
-        <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold">
+        <h1 className="lg:text-5xl md:text-4xl text-3xl mt-1 font-bold">
           {toTitleCase(`what our users say about us?`)}
         </h1>
       </div>
@@ -73,7 +73,7 @@ const UserReviews = () => {
               {toTitleCase("the best financial accounting app ever!")}
             </h3>
             <p
-              className="text-gray-500 dark:text-slate-300 text-base lg:text-lg mt-6 font-medium
+              className="text-black opacity-50 dark:opacity-70 dark:text-slate-100 text-base lg:text-lg mt-6 font-medium
 "
             >
               {toTitleCase(

@@ -32,8 +32,8 @@ const Navbar = () => {
     },
   };
   return (
-    <nav className="">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-6">
+    <nav className="lg:pt-10">
+      <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0 transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110 cursor-pointer">

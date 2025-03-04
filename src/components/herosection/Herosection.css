@@ -27,7 +27,9 @@
   width: 375px;
   bottom: 22%;
 }
-
+.heroSection_text_bg p {
+  width: 572px;
+}
 .hero_section_mobileOrder_start01 {
   position: relative;
   left: 82%;
@@ -46,9 +48,9 @@
   z-index: 10;
 }
 .hroSection_TapImg {
-  width: 569px;
+  width: 533px;
   position: relative;
-  bottom: 21%;
+  bottom: 27%;
   left: 12%;
 }
 .heroSection_bgGrandient_img {
@@ -81,18 +83,19 @@
 }
 .heroSection_mobile_img_03 {
   position: relative;
-  left: 18%;
+  left: 20%;
   bottom: 7%;
   z-index: 1;
 }
 .hero_section_circleBg {
   position: relative;
   right: 20%;
-  bottom: 5%;
+  bottom: 6%;
+  width: 662px;
 }
 .heroSection_mobileBg_GrandiantImg {
   position: absolute;
-  bottom: 22%;
+  bottom: 23%;
   right: 39%;
   z-index: 0;
   width: auto;

@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         clash: ["'Clash Display'", "sans-serif"],
       },
+      colors: {
+        mycolor: "#FF5555",
+      },
     },
   },
   plugins: [],

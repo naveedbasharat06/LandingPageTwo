@@ -16,7 +16,7 @@
   position: absolute;
   z-index: 0;
   left: 3%;
-  bottom: 15%;
+  bottom: 17%;
   width: 21%;
 }
 .GetStarted_blackBox {
@@ -25,7 +25,7 @@
 }
 .GetStatred_mobilePhones {
   position: absolute;
-  width: 44%;
+  width: 46%;
   right: 0%;
   top: 5%;
   z-index: 3;
@@ -34,18 +34,18 @@
   position: absolute;
   width: 34%;
   right: 0%;
-  top: 32%;
+  top: 41%;
 }
 .getStarted_star7 {
   position: absolute;
-  bottom: 76%;
-  right: -27%;
+  bottom: 83%;
+  right: -19%;
   z-index: 10;
 }
 .GetStarted_star6 {
   position: absolute;
-  bottom: 23%;
-  right: 17%;
+  bottom: 22%;
+  right: 19%;
   z-index: 10;
 }
 @media (max-width: 1280px) {
@@ -69,7 +69,7 @@
     position: absolute;
     z-index: 0;
     left: -1%;
-    bottom: 14%;
+    bottom: 16%;
     width: 21%;
   }
   .GetStarted_blackBox {
@@ -123,7 +123,7 @@
     position: absolute;
     z-index: 0;
     left: -4%;
-    bottom: 12%;
+    bottom: 14%;
     width: 21%;
   }
   .GetStarted_blackBox {
