@@ -92,7 +92,7 @@ const Footer = () => {
             <h2>Stay up to date</h2>
             {/* <span className="flex  overflow-hidden"> */}
             <input
-              className=" bg-slate-200 font-medium"
+              className=" bg-slate-100 font-medium"
               type="text"
               placeholder="Your email"
             />

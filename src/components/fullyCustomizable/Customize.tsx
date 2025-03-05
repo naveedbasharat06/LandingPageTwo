@@ -51,7 +51,7 @@ const Customizable: React.FC = () => {
                 Fully Customizable
               </h3>
               <p
-                className="text-black opacity-50 dark:opacity-70 dark:text-slate-100 text-base md:mr-0  lg:mr-8 lg:text-lg mt-6 font-medium
+                className="text-black opacity-50 dark:opacity-70 dark:text-slate-100 text-base md:mr-0  lg:mr-8 lg:text-lg mt-8 font-medium
 "
               >
                 {toTitleCase(

@@ -59,23 +59,23 @@ const Faqs = () => {
         <h4 className="text-red-500  uppercase text-base md:text-lg font-medium tracking-widest">
           FAQ
         </h4>
-        <h2 className="text-3xl w-[90%] md:w-[497px] md:text-4xl lg:text-5xl font-extrabold text-black dark:text-slate-100 tracking-wider mt-2">
+        <h2 className="text-3xl w-[90%] md:w-[497px] md:text-4xl lg:text-5xl font-extrabold text-black dark:text-slate-100 tracking-wider mt-1">
           Frequently Asked Questions
         </h2>
         {/* Decorative star Image */}
         <img
-          className="relative left-[60%] bottom-14 z-10 md:left-[57%]  transition-transform duration-500 ease-in-out hover:rotate-180"
+          className="relative left-[50%] bottom-14 z-10 md:left-[57%]  transition-transform duration-500 ease-in-out hover:rotate-180"
           src={start01}
           alt="Decorative Star"
         />
       </div>
 
       {/* FAQ Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[1090px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-[-20px] gap-5 max-w-[1090px] mx-auto">
         {FaqsData.map((faq, idx) => (
           <div
             key={faq.Id}
-            className={`p-5 md:p-7 rounded-lg hover:drop-shadow-lg cursor-pointer transition-all duration-300 ${
+            className={`p-5 md:p-8 rounded-lg hover:drop-shadow-lg cursor-pointer transition-all duration-300 ${
               [1, 4, 5].includes(faq.Id)
                 ? "bg-mycolor text-white"
                 : "bg-white text-black"

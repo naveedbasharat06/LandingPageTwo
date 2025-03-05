@@ -47,15 +47,15 @@ const GetStarted = () => {
             src={GetStarted_star7}
             alt="Decorative star 7"
           />
-          <h1 className="relative text-white font-bold">
+          <h1 className="relative text-white font-bold z-10">
             {toTitleCase(`ready to get started?`)}
           </h1>
-          <p className="text-white lg:text-lg text-base mt-2 md:mt-3 lg:mt-4 opacity-90">
+          <p className="text-white lg:text-lg text-base mt-2 md:mt-3 lg:mt-2 opacity-90">
             {toTitleCase(
               `Risus habitant leo egestas mauris diam eget morbi tempus vulputate.`
             )}
           </p>
-          <span className="flex gap-2 items-center justify-center rounded-md bg-white text-black p-[14px] lg:mt-4 mt-3 w-[208px] transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110 hover:bg-slate-200 cursor-pointer">
+          <span className="flex gap-2 items-center justify-center rounded-md bg-white text-black p-[15px] lg:mt-3 mt-3 w-[208px] transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110 hover:bg-slate-200 cursor-pointer">
             <button className="font-medium text-lg">Download App</button>
             <img src={GetStarted_AppleLogo} alt="apple logo" />
           </span>
